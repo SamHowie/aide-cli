@@ -1,0 +1,20 @@
+{
+    "name": "aide-cli",
+    "version": "0.0.1",
+    "author": "Sam Howie <samhowie@gmail.com>",
+    "contributors": [
+        {
+            "name": "Sam Howie",
+            "email": "samhowie@gmail.com"
+        }
+    ],
+    "description": "have the Aide do to",
+    "bin": {
+        "aide": "bin/aide"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "preferGlobal": true,
+    "license": "MIT"
+}
