@@ -8,13 +8,16 @@
             "email": "samhowie@gmail.com"
         }
     ],
-    "description": "have the Aide do to",
+    "description": "have the Aide do it",
     "bin": {
         "aide": "bin/aide"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SamHowie/aide-cli.git"
+    },
+    "dependencies": {
+        "resolve": "~0.6.2"
     },
     "engines": {
         "node": ">= 0.8.0"

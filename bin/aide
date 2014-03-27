@@ -4,4 +4,11 @@
 
 process.title = "aide";
 
-require("aide").cli();
+var resolve = require("resolve").sync;
+
+var basedir, aidepath;
+
+basedir = process.cwd();
+aidepath = resolve("aide", {basedir: basedir});
+
+require(aidepath).cli();
